@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  
+
   background-color: var(--background-color);
   background-image: var(--background-image);
   background-position: center;
@@ -173,7 +173,7 @@
   margin-bottom: 0;
 }
 
-.section__block-why-how .wrapper  {
+.section__block-why-how .wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -221,12 +221,12 @@
   margin-bottom: var(--block_text-margin-bottom);
 }
 
-section:nth-of-type(3) .block_text_subtitle { 
+section:nth-of-type(3) .block_text_subtitle {
   margin-right: var(--decoration-desktop);
 }
 
 .section__block-show-img {
-  margin-top: var(--text-block-margin-bottom-desktop); 
+  margin-top: var(--text-block-margin-bottom-desktop);
 }
 
 .section__block-show-img .block_text_subtitle {
@@ -290,7 +290,7 @@ section:nth-of-type(3) .block_text_subtitle {
   gap: var(--gap-desktop);
   padding: var(--padding-desktop);
   padding-bottom: 0;
-} 
+}
 
 .gallery__card {
   display: block;
@@ -339,10 +339,7 @@ section:nth-of-type(3) .block_text_subtitle {
   line-height: 82.5%;
 }
 
-
-
 @media (width <=769px) {
-
   .header_description {
     max-width: 364px;
   }
@@ -391,9 +388,8 @@ section:nth-of-type(3) .block_text_subtitle {
     font-size: var(--logo-size);
   }
 }
-  
-@media (width <= 620px) {
 
+@media (width <= 620px) {
   .section__block-why-how {
     display: flex;
     flex-direction: column;
@@ -419,34 +415,32 @@ section:nth-of-type(3) .block_text_subtitle {
     max-width: 355px;
   }
 
- .section__block-why-how .block_text_title {
+  .section__block-why-how .block_text_title {
     max-width: 355px;
     margin-bottom: var(--block_text-margin-bottom);
- }
+  }
 
- .section__block-why-how .wrapper .block_text_subtitle {
-  margin-right: 0;
- }
-
+  .section__block-why-how .wrapper .block_text_subtitle {
+    margin-right: 0;
+  }
 }
 
 @media (width <=376px) {
-
   .decorated-zone::before {
     left: var(--decoration-mobile);
     bottom: var(--decoration-mobile);
   }
-  
+
   .decorated-zone::after {
     right: var(--decoration-mobile);
     top: var(--decoration-mobile);
   }
-  
+
   .decorated-zone__text {
     top: var(--decoration-mobile);
     right: 38px;
   }
-  
+
   .header {
     margin-bottom: var(--header-margin-bottom-mobile);
     padding: var(--padding-mobile);
@@ -471,7 +465,7 @@ section:nth-of-type(3) .block_text_subtitle {
     margin-left: 0;
     margin-bottom: var(--block_text-margin-bottom);
     max-width: 355px;
-  } 
+  }
 
   .section__block-why-how .article {
     padding-right: 0;
@@ -485,7 +479,7 @@ section:nth-of-type(3) .block_text_subtitle {
     margin-bottom: var(--text-block-margin-bottom-mobile);
   }
 
-  .section__block-explain-what .wrapper{
+  .section__block-explain-what .wrapper {
     padding-left: var(--padding-mobile);
     padding-right: var(--padding-mobile);
     margin-left: 0;
@@ -500,7 +494,7 @@ section:nth-of-type(3) .block_text_subtitle {
   .section__block-explain-what .block_text_subtitle {
     max-width: 355px;
   }
-  
+
   .gallery {
     display: flex;
     flex-direction: column;
@@ -516,7 +510,7 @@ section:nth-of-type(3) .block_text_subtitle {
     margin-top: 0;
   }
 
-  .section__block-show-img .wrapper{
+  .section__block-show-img .wrapper {
     margin-left: 0;
     margin-right: 0;
   }
@@ -525,20 +519,19 @@ section:nth-of-type(3) .block_text_subtitle {
     margin-left: 0;
     margin-right: 0;
   }
-  
+
   .main_link {
     text-decoration: underline;
   }
 
   .header_title {
     font-size: var(--logo-size);
-    
   }
 
   .footer {
     margin-top: var(--footer-margin-top-mobile);
   }
-  
+
   .footer_title {
     font-size: var(--logo-size);
   }
