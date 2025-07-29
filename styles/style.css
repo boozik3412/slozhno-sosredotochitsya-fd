@@ -442,6 +442,7 @@ section:nth-of-type(3) .block_text_subtitle {
 
   .header_title {
     margin-left: 0;
+    font-size: var(--logo-size);
   }
 
   .section__block-why-how {
@@ -517,11 +518,7 @@ section:nth-of-type(3) .block_text_subtitle {
   .main_link {
     text-decoration: underline;
   }
-
-  .header_title {
-    font-size: var(--logo-size);
-  }
-
+  
   .footer {
     margin-top: var(--footer-margin-top-mobile);
   }
