@@ -202,7 +202,6 @@
 
 .section__block-explain-what .block_text_title {
   max-width: 315px;
-  margin-bottom: var(--block_text-margin-bottom);
 }
 
 .block_text {
