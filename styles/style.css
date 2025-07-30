@@ -160,16 +160,9 @@
 .section__block-why-how {
   display: grid;
   grid-template-columns: 355px 1fr;
-  margin-bottom: var(--text-block-margin-bottom-desktop);
-  font-family: var(--font-family);
-  line-height: var(--line-height);
 }
 
-.section__block-why-how .article:last-child .block_text {
-  margin-bottom: var(--block_text-margin-bottom);
-}
-
-.section__block-why-how .article:last-child .block_text:last-child {
+.article:last-child .block_text:last-child {
   margin-bottom: 0;
 }
 
@@ -189,10 +182,7 @@
 
 .section__block-explain-what {
   display: grid;
-  font-family: var(--font-family);
-  line-height: var(--line-height);
-  margin-bottom: var(--text-block-margin-bottom-desktop);
-  gap: var(--section_gap);
+  gap: var(--gap-section);
 }
 
 .section__block-explain-what .wrapper {
@@ -218,7 +208,7 @@
   font-size: var(--font-size);
 }
 
-section:nth-of-type(3) .block_text_subtitle {
+.block_text_subtitle_wrapper {
   margin-right: var(--decoration-desktop);
 }
 
@@ -229,6 +219,12 @@ section:nth-of-type(3) .block_text_subtitle {
 .section__block-show-img .block_text_subtitle {
   margin-left: var(--decoration-desktop);
   margin-right: var(--decoration-desktop);
+}
+
+.content-section {
+  margin-bottom: var(--text-block-margin-bottom-desktop);
+  font-family: var(--font-family);
+  line-height: var(--line-height);
 }
 
 .block_text_title {
@@ -340,17 +336,12 @@ section:nth-of-type(3) .block_text_subtitle {
     max-width: 364px;
   }
 
-  .header_title {
-    font-size: var(--logo-size);
-  }
-
   .header__theme-menu {
     justify-content: flex-end;
     align-self: center;
   }
 
   .header__theme-menu-list {
-    display: flex;
     flex-direction: column;
     gap: 12px;
   }
@@ -380,9 +371,6 @@ section:nth-of-type(3) .block_text_subtitle {
     max-width: 728px;
   }
 
-  .footer_title {
-    font-size: var(--logo-size);
-  }
 }
 
 @media (width <= 620px) {
@@ -442,13 +430,11 @@ section:nth-of-type(3) .block_text_subtitle {
 
   .header_title {
     margin-left: 0;
-    font-size: var(--logo-size);
   }
 
   .section__block-why-how {
     display: flex;
     flex-direction: column;
-    margin-bottom: var(--text-block-margin-bottom-mobile);
   }
 
   .section__block-why-how .wrapper {
@@ -470,7 +456,7 @@ section:nth-of-type(3) .block_text_subtitle {
     margin-right: 0;
   }
 
-  .section__block-explain-what {
+  .content-section {
     margin-bottom: var(--text-block-margin-bottom-mobile);
   }
 
@@ -518,12 +504,9 @@ section:nth-of-type(3) .block_text_subtitle {
   .main_link {
     text-decoration: underline;
   }
-  
+
   .footer {
     margin-top: var(--footer-margin-top-mobile);
   }
 
-  .footer_title {
-    font-size: var(--logo-size);
-  }
 }
