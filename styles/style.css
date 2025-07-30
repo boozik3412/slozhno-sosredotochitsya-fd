@@ -58,7 +58,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 26px;
   text-transform: lowercase;
   color: var(--font-color-menu);
 }
@@ -69,6 +69,7 @@
   background-color: transparent;
   cursor: pointer;
   border: none;
+  text-transform: lowercase;
 }
 
 .header__theme-menu-button_active {

@@ -21,7 +21,7 @@
   --background-image: url(../images/cover-image-light.png);
 }
 
-.theme_light .decorated-zone__text {
+.theme-light .decorated-zone__text {
   display: none;
 }
 
