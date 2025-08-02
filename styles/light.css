@@ -39,7 +39,7 @@
     --background-image: url(../images/cover-image-light.png);
   }
 
-  .theme_auto .decorated-zone__text {
+  .theme-auto .decorated-zone__text {
     display: none;
   }
 }
